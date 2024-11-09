@@ -1,0 +1,16 @@
+name: capex
+channels:
+  - conda-forge
+  - gurobi
+  - defaults
+dependencies:
+  - python==3.12.2
+  - scipy
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pathlib
+  - pyomo
+  - gurobi
+prefix: /opt/anaconda3/envs/capex
